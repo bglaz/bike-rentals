@@ -35,7 +35,7 @@ module.exports = {
 
   generate: {
     routes: () => {
-      return PoductJson.products.map( (prod) => `/products/${prod.id}`);
+      return productJSON.products.map( (prod) => `/products/${prod.id}`);
     }
   },
 
