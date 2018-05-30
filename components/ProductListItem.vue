@@ -2,7 +2,9 @@
     <div class="product">
         <h4>{{ item.name }}</h4>
         <div class="img-holder">
-            <img :src="item.image" :alt="item.name" />
+            <nuxt-link :to="`/products/${item.id}`">
+                <img :src="item.image" :alt="item.name" />
+            </nuxt-link>
         </div>
         <div class="price">${{ item.price.toFixed(2) }}</div>
         <nuxt-link class="button" :to="`/products/${item.id}`">

@@ -25,25 +25,43 @@ section {
     margin: 0;
 }
 
+p {
+    margin: 1rem 0;
+}
+
 h1,h2,h3,h4,h5,h6 {
     font-family: "Fira Sans", sans-serif;
 }
 
 .button {
     display: block;
+    padding: 0.5rem;
+    margin: 0.5rem;
     background-color: lightseagreen;
+    
     color: black;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    padding: 0.5rem;
-    margin: 0.5rem 0;
-
+   
+    cursor: pointer;
     transition: all, .3s;
 
     &:hover {
         color: white;
         background-color: darken(lightseagreen, 10);
+    }
+}
+
+table {
+    margin: 1rem 0;
+
+    th {
+        text-align-last: left;
+    }
+
+    th, td {
+        padding: 0.25rem;
     }
 }

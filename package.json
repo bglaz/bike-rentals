@@ -17,7 +17,8 @@
     "ajv": "^6.5.0",
     "lodash": "^4.17.10",
     "normalize.css": "^8.0.0",
-    "nuxt": "^1.0.0"
+    "nuxt": "^1.0.0",
+    "sweetalert2": "^7.21.1"
   },
   "devDependencies": {
     "@vue/test-utils": "^1.0.0-beta.16",

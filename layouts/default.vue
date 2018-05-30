@@ -1,7 +1,9 @@
 <template>
   <div>
     <page-header title="Bikes R' Us" />
-    <nuxt/>
+    <main>
+      <nuxt/>
+    </main>
   </div>
 </template>
 
