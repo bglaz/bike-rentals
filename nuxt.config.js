@@ -1,4 +1,4 @@
-import ProductJSON from '~/static/bikerentals.json';
+const productJSON = require('./static/bikerentals.json');
 
 /* nuxt.config.js */
 // only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES`
